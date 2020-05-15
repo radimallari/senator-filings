@@ -6,8 +6,10 @@ Scrape public filings of the buy + sell orders of U.S. senators and calculate th
 python3, Selenium
 
 ## Quick Start
-
-Scrape all of the senators' filings: `python3 main.py`
+- create a venv for the project `python -m venv venv`
+- install requirements `pip install -r requirements`
+- run the script `python main.py`
+- wait 10 years for the script to finish!
 
 Analyze the results by starting a Jupyter server and going through the notebook: `jupyter notebook`
 
