@@ -7,6 +7,7 @@ python3, Selenium
 
 ## Quick Start
 - create a venv for the project `python -m venv venv`
+- activate venv in cmd `call venv/Scripts/activate`
 - install requirements `pip install -r requirements`
 - run the script `python main.py`
 - wait 10 years for the script to finish!
