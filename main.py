@@ -2,6 +2,7 @@
 
 from selenium import webdriver
 from selenium.common.exceptions import StaleElementReferenceException
+from webdriver_manager.chrome import ChromeDriverManager
 
 import datetime
 import logging
@@ -38,7 +39,7 @@ def click_on(driver: webdriver.Chrome, element: Any) -> None:
 
 
 def open_page() -> webdriver.Chrome:
-    driver = webdriver.Chrome('./chromedriver')
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(FILINGS_HOME)
     return driver
 
