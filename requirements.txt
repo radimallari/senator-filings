@@ -5,3 +5,4 @@ pandas==0.25.3
 selenium==3.141.0
 yfinance==0.1.54
 webdriver-manager==2.5.0
+PySimpleGUI
